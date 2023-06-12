@@ -62,3 +62,7 @@ footer {
 img {
   width: 75px;
 }
+
+.row-ahead {
+  display: inline;
+}

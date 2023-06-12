@@ -58,3 +58,10 @@ li {
 footer {
   text-align: center;
 }
+
+img {
+  width: 75px;
+}
+.row {
+  text-align: center;
+}

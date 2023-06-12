@@ -12,8 +12,8 @@ function searchCity(event) {
 let now = new Date();
 let days = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
 let day = days[now.getDay()];
-let hours = now.getHours();
-let minutes = now.getMinutes();
+let hours = now.getUTCHours();
+let minutes = now.getUTCMinutes();
 let h2 = document.querySelector("h2");
 h2.innerHTML = `${day}, ${hours}:${minutes}`;
 

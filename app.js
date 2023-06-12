@@ -9,6 +9,14 @@ function searchCity(event) {
   axios.get(apiUrl).then(showTemperature);
 }
 
+let now = new Date();
+let days = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
+let day = days[now.getDay()];
+let hours = now.getHours();
+let minutes = now.getMinutes();
+let h2 = document.querySelector("h2");
+h2.innerHTML = `${day}, ${hours}:${minutes}`;
+
 function showTemperature(response) {
   let temperature = Math.round(response.data.main.temp);
   let temperatureElement = document.querySelector("#temperature");

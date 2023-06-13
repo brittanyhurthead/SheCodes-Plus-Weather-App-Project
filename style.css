@@ -31,7 +31,7 @@ li {
   padding: 15px;
   margin: 20px auto;
   border-radius: 5px;
-  max-width: 600px;
+  max-width: 800px;
 }
 
 .weather-icon {
@@ -61,8 +61,4 @@ footer {
 
 img {
   width: 75px;
-}
-
-.row-ahead {
-  display: inline;
 }

@@ -76,5 +76,11 @@ footer {
 
 #humidWind {
   display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.futureDays {
+  display: flex;
   justify-content: space-evenly;
 }

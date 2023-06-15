@@ -74,6 +74,7 @@ footer {
   padding: 5px;
 }
 
-.futureDays {
-  flex: auto;
+.container {
+  display: flex;
+  justify-content: space-evenly;
 }

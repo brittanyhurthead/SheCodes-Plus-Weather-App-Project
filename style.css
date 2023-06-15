@@ -72,16 +72,19 @@ footer {
 #dayOne {
   display: flex;
   justify-content: space-evenly;
+  flex-direction: column;
 }
 
 #dayTwo {
   display: flex;
   justify-content: space-evenly;
+  flex-direction: column;
 }
 
 #dayThree {
   display: flex;
   justify-content: space-evenly;
+  flex-direction: column;
 }
 #tempDescription {
   display: flex;

@@ -67,6 +67,7 @@ footer {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
+  font-size: 30px;
 }
 
 #days {
@@ -86,4 +87,5 @@ footer {
 #tempDescription {
   display: flex;
   flex-direction: column;
+  font-size: 30px;
 }

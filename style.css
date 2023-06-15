@@ -69,17 +69,17 @@ footer {
   align-items: flex-end;
 }
 
-#days {
+#dayOne {
   display: flex;
   justify-content: space-evenly;
 }
 
-#weatherPic {
+#dayTwo {
   display: flex;
   justify-content: space-evenly;
 }
 
-#weatherTemp {
+#dayThree {
   display: flex;
   justify-content: space-evenly;
 }

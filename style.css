@@ -80,7 +80,17 @@ footer {
   align-items: flex-end;
 }
 
-.futureDays {
+#days {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#weatherPic {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#weatherTemp {
   display: flex;
   justify-content: space-evenly;
 }

@@ -42,22 +42,11 @@ li {
   max-width: 80%;
 }
 
-.weather-icon {
-  height: 64px;
-  width: 64px;
-  margin-right: 10px;
-}
-
 .temperature {
   color: white;
   font-size: 64px;
   font-weight: 400;
   line-height: 1;
-}
-
-.units {
-  position: relative;
-  top: -34px;
 }
 
 .search-form {
@@ -93,4 +82,8 @@ footer {
 #weatherTemp {
   display: flex;
   justify-content: space-evenly;
+}
+#tempDescription {
+  display: flex;
+  flex-direction: column;
 }

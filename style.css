@@ -25,7 +25,7 @@ ul {
 
 li {
   color: white;
-  font-size: 16px;
+  font-size: 25px;
   font-weight: 100;
   height: 19px;
   line-height: 1;
@@ -67,7 +67,6 @@ footer {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
-  font-size: 30px;
 }
 
 #days {
@@ -87,5 +86,4 @@ footer {
 #tempDescription {
   display: flex;
   flex-direction: column;
-  font-size: 30px;
 }

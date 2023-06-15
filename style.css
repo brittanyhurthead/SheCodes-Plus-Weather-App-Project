@@ -34,8 +34,8 @@ li {
 
 .weather-app {
   background-color: #698474;
-  opacity: 0.9;
-  border: 1px solid darkslategray;
+  opacity: 0.75;
+  border: 3px solid whitesmoke;
   padding: 15px;
   margin: 20px auto;
   border-radius: 10px;
@@ -75,5 +75,5 @@ footer {
 }
 
 .futureDays {
-  text-align: center;
+  flex: auto;
 }

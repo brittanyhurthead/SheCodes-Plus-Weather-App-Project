@@ -75,7 +75,7 @@ footer {
 
 #weatherIcon {
   display: flex;
-  justify-content: flex-end;
-  align-items: flex-end;
+  justify-content: end;
+  align-items: end;
   flex-direction: column;
 }

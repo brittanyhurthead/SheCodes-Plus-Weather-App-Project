@@ -66,11 +66,13 @@ footer {
 #humidWind {
   display: flex;
   flex-direction: column;
+  justify-content: space-evenly;
 }
 
 #tempDescription {
   display: flex;
   flex-direction: column;
+  justify-content: space-evenly;
 }
 
 #weatherIcon {

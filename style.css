@@ -69,28 +69,7 @@ footer {
   align-items: flex-end;
 }
 
-#dayOne {
-  display: flex;
-  justify-content: space-evenly;
-  flex-direction: column;
-}
-
-#dayTwo {
-  display: flex;
-  justify-content: space-evenly;
-  flex-direction: column;
-}
-
-#dayThree {
-  display: flex;
-  justify-content: space-evenly;
-  flex-direction: column;
-}
 #tempDescription {
   display: flex;
   flex-direction: column;
-}
-.futureDays {
-  display: flex;
-  justify-content: space-evenly;
 }

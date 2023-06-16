@@ -77,5 +77,5 @@ footer {
   display: flex;
   align-items: flex-end;
   flex-direction: column;
-  justify-content: flex-start;
+  justify-content: flex-end;
 }

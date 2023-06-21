@@ -18,9 +18,9 @@
 		<div class="weather-app">
 			<form class="search-form" id="search-form">
 				<div class="row">
-					<div class="col-3">
+					<div class="col-9">
 						<input
-							type="text"
+							type="search"
 							placeholder="Search a city name.."
 							autofocus="on"
 							autocomplete="off"
@@ -28,39 +28,75 @@
 							class="form-control shadow-sm"
 						/>
 					</div>
-					<div class="col-3">
-						<input
-							type="submit"
-							value="Search"
-							class="form-control btn btn-primary shadow-sm"
-						/>
-					</div>
-					<div class="col-3">
-							<button class="btn btn-success id="current-location-button">Current Location</button>
-					</div>
-			</div>
-			</form>
-			<h1 id="city">Morrow</h1>
-            <h2 id="date"></h2>
-			<ul id="tempDescription">
-				<li id="temperature">78°F</li>
-				<li id="description">Partly Cloudy</li>
-			</ul>
-				
-				<div class="col">
-					<ul  id="humidWind">
-						<li id="humidity">Humidity:77%</li>
-						<li id="wind">Wind:8 km/h</li>
-					</ul>
-				</div> 
-                <div class="col"></div>
-           	<div class="col">
-						<img id="weatherIcon" src="src/sunny.png" width="100" height="100"/>
-				</div>
-		
-                    </div>
-                </div>  
-            </div>    
+					<div class="col-3"><!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
+    <link rel="stylesheet" href="src/style.css" />
+    <title>Weather App</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="weather-app-wrapper">
+        <div class="weather-app">
+          <form id="search-form" class="mb-3">
+            <div class="row">
+              <div class="col-9">
+                <input
+                  type="search"
+                  placeholder="Type a city.."
+                  class="form-control"
+                  id="city-input"
+                  autocomplete="off"
+                />
+              </div>
+              <div class="col-3">
+                <input
+                  type="submit"
+                  value="Search"
+                  class="btn btn-primary w-100"
+                />
+              </div>
+            </div>
+          </form>
+          <div class="overview">
+            <h1 id="city"></h1>
+            <ul>
+              <li>Last updated: <span id="date"></span></li>
+              <li id="description"></li>
+            </ul>
+          </div>
+          <div class="row">
+            <div class="col-6">
+              <div class="clearfix weather-temperature">
+                <img src="" alt="Clear" id="icon" class="float-left" />
+                <div class="float-left">
+                  <strong id="temperature"></strong
+                  ><span class="units"> °C</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-6">
+              <ul>
+                <li>Humidity: <span id="humidity"></span>%</li>
+                <li>Wind: <span id="wind"></span> km/h</li>
+              </ul>
+            </div>
+          </div>
+          <div class="weather-forecast" id="forecast"></div>
+        </div>
+
+				   
  <script src="app.js"></script>
 </body>
 <footer><a href="https://github.com/brittanyhurthead/SheCodes-Plus-Weather-App-Project">Open Source Code</a> by Brittany Head</footer>
